@@ -27,9 +27,9 @@ public class Media {
 	 private String fileurl;
 	 @Column
 	 private String hide;
-	 @CreationTimestamp
+	 @Column @CreationTimestamp
 	 private LocalDateTime createdon;
-	 @UpdateTimestamp
+	 @Column @UpdateTimestamp
 	 private LocalDateTime updateon;
 	 @Column
 	 private String tags;

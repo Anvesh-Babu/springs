@@ -28,9 +28,9 @@ public class Users {
 	private LocalDate dob;
 	@Column
 	private String profilepic;
-	@CreationTimestamp
+	 @Column @CreationTimestamp
 	private LocalDateTime createdon;
-	@UpdateTimestamp
+	@Column @UpdateTimestamp
 	private LocalDateTime updateon;
 	@Column
 	private Boolean enabled;

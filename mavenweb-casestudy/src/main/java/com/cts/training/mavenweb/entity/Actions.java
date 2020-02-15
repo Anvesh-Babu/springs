@@ -15,7 +15,7 @@ public class Actions {
 	private Integer userId;
 	@Column
 	private boolean Status;
-     @CreationTimestamp
+     @Column @CreationTimestamp
 	private LocalDateTime createdon;
 	
 	

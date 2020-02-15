@@ -14,7 +14,7 @@ public class Comments {
 	 private Integer userId;
 	 @Column
 	 private String comment;
-	 @CreationTimestamp
+	@Column @CreationTimestamp
 	 private LocalDateTime createdon;
 	 
 	 

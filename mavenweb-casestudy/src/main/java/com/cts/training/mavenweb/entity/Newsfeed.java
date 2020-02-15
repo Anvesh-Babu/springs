@@ -16,7 +16,7 @@ public class Newsfeed {
 	 private Integer mediaId;
 	 @Column
 	 private String feed;
-	 @CreationTimestamp
+	 @Column @CreationTimestamp
 	 private LocalDateTime createdon;
 	 
 	 
